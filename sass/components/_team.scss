@@ -1,0 +1,90 @@
+.team-section {
+  background-color: $team-background-color;
+}
+
+.team-section__title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-list {
+  list-style: none;
+  display: flex;
+}
+
+.team-card {
+  background-color: $primary-background-color;
+  max-width: 270px;
+  box-shadow: $portfolio-hover-shadow;
+  border: transparent;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-card__footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-card__name {
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.team-card__position {
+  color: $primary-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.team-card__list-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  list-style: none;
+}
+
+.team-card__link {
+  width: 44px;
+  height: 44px;
+  fill: $team-card-link-fill;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-background-color;
+  color: $accent-color;
+  border-radius: 50%;
+  transition: fill 250ms $timing-function,
+    background-color 250ms $timing-function;
+}
+
+.team-card__link:hover,
+.team-card__link:focus {
+  background-color: $accent-color;
+  fill: $primary-background-color;
+}

@@ -1,0 +1,36 @@
+.page-header {
+  border-bottom: 1px solid $page-header-border-color;
+}
+
+.page-header__site-nav--container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header__site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.page-header__logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+  color: $accent-color;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration-line: none;
+}
+.page-header__logo--black {
+  color: #2f303a;
+}
+
+.page-header__logo:hover,
+.page-header__logo:focus,
+.page-header__logo:active {
+  color: $accent-color;
+}
