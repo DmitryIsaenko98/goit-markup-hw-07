@@ -2,43 +2,83 @@
   display: flex;
   list-style: none;
   margin-left: auto;
-}
-.contacts-list__item:not(:last-child) {
-  margin-right: 50px;
-}
 
-.contacts-list__link {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
 
-  color: $primary-text-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  transition: color 250ms $timing-function;
-}
+  &__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
-.contacts-list__link:hover,
-.contacts-list__link:focus {
-  color: $accent-color;
-}
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: color 250ms $timing-function;
+  }
 
-.contacts-list__icon-envelope {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  margin-left: auto;
-  fill: currentColor;
-}
+  &__link:hover,
+  &__link:focus {
+    color: $accent-color;
+  }
 
-.contacts-list__icon-phone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  margin-left: auto;
-  fill: currentColor;
+  &__icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    margin-left: auto;
+    fill: currentColor;
+  }
+
+  &__icon-phone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    margin-left: auto;
+    fill: currentColor;
+  }
 }
+// .contacts-list__item:not(:last-child) {
+//   margin-right: 50px;
+// }
+
+// .contacts-list__link {
+//   display: flex;
+//   align-items: center;
+//   padding-top: 32px;
+//   padding-bottom: 32px;
+
+//   color: $primary-text-color;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.1;
+//   letter-spacing: 0.02em;
+//   text-decoration: none;
+//   transition: color 250ms $timing-function;
+// }
+
+// .contacts-list__link:hover,
+// .contacts-list__link:focus {
+//   color: $accent-color;
+// }
+
+// .contacts-list__icon-envelope {
+//   width: 16px;
+//   height: 12px;
+//   margin-right: 10px;
+//   margin-left: auto;
+//   fill: currentColor;
+// }
+
+// .contacts-list__icon-phone {
+//   width: 10px;
+//   height: 16px;
+//   margin-right: 10px;
+//   margin-left: auto;
+//   fill: currentColor;
+// }
