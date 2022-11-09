@@ -28,6 +28,7 @@
     background-color: $subscribe-bg-color;
     transition: border-color 250ms $timing-function;
     color: $primary-text-color;
+    outline: none;
   }
 
   &__input:hover,
